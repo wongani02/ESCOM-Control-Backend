@@ -122,9 +122,9 @@ AUTH_COOKIE_SAMESITE = 'None'
 
 
 # cors origins settings
-CSRF_TRUSTED_ORIGINS = ['http://localhost:3000', 'https://escom-control-backend-production.up.railway.app/']
+CSRF_TRUSTED_ORIGINS = ['http://localhost:3000', 'https://escom-control-backend-production.up.railway.app', 'https://escom-control-frontend-53cg-brhgo7z2z-wongani02.vercel.app']
 CORS_ORIGIN_WHITELIST = (
-  'http://localhost:3000','https://escom-control-backend-production.up.railway.app/',
+  'http://localhost:3000','https://escom-control-backend-production.up.railway.app', 'https://escom-control-frontend-53cg-brhgo7z2z-wongani02.vercel.app',
 )
 
 
